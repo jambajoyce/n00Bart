@@ -1,0 +1,96 @@
+
+    
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" >
+
+     <TextView
+         android:id="@+id/TextView01"
+         android:layout_width="wrap_content"
+         android:layout_height="0dp"
+         android:layout_marginTop="20dp"
+         android:text="@string/to"
+         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+      <Button
+          android:id="@+id/textView1"
+          android:layout_width="224dp"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"
+          android:layout_centerVertical="true"
+          android:padding="10dip"
+          android:text="@string/calculate_cost"
+          android:textAppearance="?android:attr/textAppearanceLarge" />
+
+      <TextView
+          android:id="@+id/TextView02"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentTop="true"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="19dp"
+          android:text="@string/i_want"
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:textSize="32dip" />
+
+      <TextView
+          android:id="@+id/to"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBottom="@+id/dest_box"
+          android:layout_alignTop="@+id/dest_box"
+          android:layout_toRightOf="@+id/TextView01"
+          android:text="@string/to"
+          android:textAppearance="?android:attr/textAppearanceLarge" />
+
+      <TextView
+          android:id="@+id/textView2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/textView1"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="38dp"
+          android:hint="@string/cost"
+          android:textAppearance="?android:attr/textAppearanceLarge" />
+
+      <AutoCompleteTextView
+          android:id="@+id/dest_box"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:layout_below="@+id/orig_box"
+          android:layout_marginTop="102dp"
+          android:layout_toRightOf="@+id/from"
+          android:completionThreshold="1"
+          android:ems="10"
+          android:hint="@string/dest"
+          android:padding="10dip" />
+
+      <AutoCompleteTextView
+          android:id="@+id/orig_box"
+          android:layout_width="311dp"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/dest_box"
+          android:layout_alignParentRight="true"
+          android:layout_below="@+id/TextView02"
+          android:layout_marginTop="91dp"
+          android:completionThreshold="1"
+          android:ems="10"
+          android:hint="@string/orig"
+          android:padding="10dip" >
+
+          <requestFocus />
+      </AutoCompleteTextView>
+
+      <TextView
+          android:id="@+id/from"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBaseline="@+id/orig_box"
+          android:layout_alignBottom="@+id/orig_box"
+          android:layout_alignLeft="@+id/to"
+          android:text="@string/from"
+          android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	</RelativeLayout>

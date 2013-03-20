@@ -7,9 +7,9 @@
 	<ImageView
 	    android:id="@+id/imageView"
 	    android:layout_width="fill_parent"
-	    android:layout_height="fill_parent"
+	    android:layout_height="846dp"
 	    android:layout_marginTop="30dp"
-	    android:scaleType="center"
+	    android:scaleType="fitXY"
 	    android:src="@drawable/bart_map" />
 
 </FrameLayout>

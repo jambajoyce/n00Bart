@@ -11,28 +11,21 @@
          android:layout_height="0dp"
          android:layout_marginTop="20dp"
          android:text="@string/to"
+         android:textColor="@color/DodgerBlue"
          android:textAppearance="?android:attr/textAppearanceLarge" />
-
-      <Button
-          android:id="@+id/textView1"
-          android:layout_width="224dp"
-          android:layout_height="wrap_content"
-          android:layout_centerHorizontal="true"
-          android:layout_centerVertical="true"
-          android:padding="10dip"
-          android:text="@string/calculate_cost"
-          android:textAppearance="?android:attr/textAppearanceLarge" />
 
       <TextView
           android:id="@+id/TextView02"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/orig_box"
           android:layout_alignParentTop="true"
-          android:layout_centerHorizontal="true"
           android:layout_marginTop="19dp"
+          android:fontFamily="sans-serif-light"
           android:text="@string/i_want"
           android:textAppearance="?android:attr/textAppearanceLarge"
-          android:textSize="32dip" />
+          android:textColor="@color/DodgerBlue"
+          android:textSize="48sp" />
 
       <TextView
           android:id="@+id/to"
@@ -40,9 +33,11 @@
           android:layout_height="wrap_content"
           android:layout_alignBottom="@+id/dest_box"
           android:layout_alignTop="@+id/dest_box"
+          android:layout_toLeftOf="@+id/textView1"
           android:layout_toRightOf="@+id/TextView01"
           android:text="@string/to"
-          android:textAppearance="?android:attr/textAppearanceLarge" />
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:textColor="@color/DodgerBlue" />
 
       <TextView
           android:id="@+id/textView2"
@@ -52,13 +47,13 @@
           android:layout_centerHorizontal="true"
           android:layout_marginTop="38dp"
           android:hint="@string/cost"
+          android:textColor="@color/DodgerBlue"
           android:textAppearance="?android:attr/textAppearanceLarge" />
 
       <AutoCompleteTextView
           android:id="@+id/dest_box"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
-          android:layout_alignParentRight="true"
           android:layout_below="@+id/orig_box"
           android:layout_marginTop="102dp"
           android:layout_toRightOf="@+id/from"
@@ -91,6 +86,22 @@
           android:layout_alignBottom="@+id/orig_box"
           android:layout_alignLeft="@+id/to"
           android:text="@string/from"
+          android:textColor="@color/DodgerBlue"
           android:textAppearance="?android:attr/textAppearanceLarge" />
+
+      <Button
+          android:id="@+id/textView1"
+          android:layout_width="300dp"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/dest_box"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="64dp"
+          android:background="@color/DodgerBlue"
+          android:fontFamily="sans-serif-condensed"
+          android:padding="10dip"
+          android:text="@string/calculate_cost"
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:textColor="@color/White"
+          android:textSize="32sp" />
 
 	</RelativeLayout>

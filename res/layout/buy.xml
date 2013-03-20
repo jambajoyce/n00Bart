@@ -13,73 +13,231 @@
 
         <TextView
             android:id="@+id/textView1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Large Text"
+            android:layout_width="619dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="0.57"
+            android:text="@string/buy1"
+            android:gravity="center"
+     	   	android:textColor="@color/DodgerBlue"
             android:textAppearance="?android:attr/textAppearanceLarge" />
 
-        <ImageView
-            android:id="@+id/ImageView00"
-            android:layout_width="fill_parent"
-       		android:layout_height="fill_parent"
-      		android:scaleType="fitCenter"
-            android:src="@drawable/kiosks" />
-        
+
         <ImageView
             android:id="@+id/ImageView01"
             android:layout_width="fill_parent"
-       		android:layout_height="fill_parent"
-      		android:scaleType="fitCenter"
+            android:layout_height="fill_parent"
+            android:scaleType="fitCenter"
             android:src="@drawable/kiosks" />
 
-		<ImageView
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="619dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="0.57"
+            android:text="@string/buy2"
+            android:gravity="center"
+     	   	android:textColor="@color/DodgerBlue"
+            android:textAppearance="?android:attr/textAppearanceLarge" />        
+        
+        <ImageView
             android:id="@+id/ImageView02"
             android:layout_width="fill_parent"
-       		android:layout_height="fill_parent"
-      		android:scaleType="fitCenter"
+            android:layout_height="fill_parent"
+            android:scaleType="fitCenter"
             android:src="@drawable/fares" />
+        
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="619dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="11.81"
+            android:gravity="center"
+            android:text="@string/buy3"
+     	   	android:textColor="@color/DodgerBlue"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+		<TextView
+            android:id="@+id/textViewA"
+            android:layout_width="619dp"
+            android:layout_height="54dp"
+            android:layout_weight="11.81"
+            android:gravity="center"
+            android:text="@string/buyA"
+     	   	android:textColor="@color/DodgerBlue"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+		<TextView
+		    android:id="@+id/textViewB"
+		    android:layout_width="619dp"
+		    android:layout_height="54dp"
+		    android:layout_weight="11.81"
+		    android:gravity="center"
+		    android:text="@string/buyB"
+     	   	android:textColor="@color/DodgerBlue"
+		    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textViewC"
+            android:layout_width="619dp"
+            android:layout_height="54dp"
+            android:layout_weight="11.81"
+            android:gravity="center"
+            android:text="@string/buyC"
+     	   	android:textColor="@color/DodgerBlue"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+		<TextView
+            android:id="@+id/textViewD"
+            android:layout_width="619dp"
+            android:layout_height="54dp"
+            android:layout_weight="11.81"
+            android:gravity="center"
+            android:text="@string/buyD"
+            android:layout_marginBottom="20dp"
+     	   	android:textColor="@color/DodgerBlue"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
 		
-		<ImageView
+        <ImageView
             android:id="@+id/ImageView03"
             android:layout_width="fill_parent"
-       		android:layout_height="fill_parent"
-      		android:scaleType="fitCenter"
+            android:layout_height="fill_parent"
+            android:scaleType="fitCenter"
             android:src="@drawable/paymentmethod" />
 
-		<ImageView
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/buy4"
+     	   	android:textColor="@color/DodgerBlue"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <ImageView
             android:id="@+id/ImageView04"
             android:layout_width="fill_parent"
-       		android:layout_height="fill_parent"
-      		android:scaleType="fitCenter"
+            android:layout_height="fill_parent"
+            android:scaleType="fitCenter"
             android:src="@drawable/add" />
 
-		<ImageView
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="619dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"     
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"       
+            android:layout_weight="0.57"
+            android:text="@string/buy5"
+            android:gravity="center"
+     	   	android:textColor="@color/DodgerBlue"
+            android:textAppearance="?android:attr/textAppearanceLarge" />            
+        
+        <ImageView
             android:id="@+id/ImageView05"
             android:layout_width="fill_parent"
-       		android:layout_height="fill_parent"
-      		android:scaleType="fitCenter"
+            android:layout_height="fill_parent"
+            android:scaleType="fitCenter"
             android:src="@drawable/insertmoney" />
 
-		<ImageView
+        <TextView
+            android:id="@+id/textView5A"
+            android:layout_width="619dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="0.57"
+            android:text="@string/buy5A"
+            android:gravity="center"
+     	   	android:textColor="@color/DodgerBlue"
+            android:textAppearance="?android:attr/textAppearanceLarge" />            
+        
+        <ImageView
             android:id="@+id/ImageView06"
             android:layout_width="fill_parent"
-       		android:layout_height="fill_parent"
-      		android:scaleType="fitCenter"
+            android:layout_height="fill_parent"
+            android:scaleType="fitCenter"
             android:src="@drawable/insertcredit" />
 
-		<ImageView
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="619dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="0.57"
+            android:text="@string/buy6"
+            android:gravity="center"
+     	   	android:textColor="@color/DodgerBlue"
+            android:textAppearance="?android:attr/textAppearanceLarge" />            
+        
+        <ImageView
             android:id="@+id/ImageView07"
             android:layout_width="fill_parent"
-       		android:layout_height="fill_parent"
-      		android:scaleType="fitCenter"
+            android:layout_height="fill_parent"
+            android:scaleType="fitCenter"
+            android:gravity="center"
             android:src="@drawable/takechange" />
 
-		<ImageView
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/buy7"
+     	   	android:textColor="@color/DodgerBlue"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+        <TextView
+            android:id="@+id/textView7A"
+            android:layout_width="575dp"
+            android:layout_height="54dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:text="@string/buy7A"
+     	   	android:textColor="@color/DodgerBlue"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <ImageView
             android:id="@+id/ImageView08"
             android:layout_width="fill_parent"
-       		android:layout_height="fill_parent"
-      		android:scaleType="fitCenter"
-            android:src="@drawable/insertticket" />				
+            android:layout_height="fill_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/insertticket" />
+        
+        <TextView
+            android:id="@+id/textView09"
+            android:layout_width="619dp"
+            android:layout_height="54dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="25dp"
+            android:layout_weight="0.57"
+            android:text="@string/happyTravels"
+            android:gravity="center"
+     	   	android:textColor="@color/DodgerBlue"
+     	   	android:textSize="48sp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />    
     </LinearLayout>
 
 </ScrollView> 

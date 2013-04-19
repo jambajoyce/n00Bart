@@ -21,7 +21,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
 	private Button nextLeaveButton;
 	
 	public final static HashMap<String, String> map = new HashMap<String, String>();
-	static 
+	static 	
 	{
 			map.put("12th St. Oakland City Center", "12th");
 			map.put("16th St. Mission (SF)", "16th");
@@ -106,12 +106,12 @@ public class MainActivity extends Activity implements View.OnClickListener{
 	    	Intent myIntent2 = new Intent(view.getContext(), Fare.class); 
             startActivity(myIntent2);
 			break;
-/*			
+			
 	    case R.id.next_leave_button:
-	    	Intent myIntent3 = new Intent(view.getContext(), Next.class);
+	    	Intent myIntent3 = new Intent(view.getContext(), Departures.class);
             startActivity(myIntent3);
 			break;
-*/
+
 	    }
 	}
 	
@@ -129,7 +129,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
 		return true;
 	}
 
-    public HashMap<String, String> getHM() {
+    public static HashMap<String, String> getHM() {
     	return map;
     }
 

@@ -9,7 +9,7 @@
        	 	android:layout_height="wrap_content"
         	android:padding="5dip" >
  
-        	<TextView
+        	<EditText
         	    android:id="@+id/editText1"
         	    android:layout_span="2"
         	    android:text="@string/c12"

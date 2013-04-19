@@ -18,7 +18,7 @@
         android:layout_height="100dp"
         android:layout_marginTop="50dp"
         android:layout_x="200dp"
-        android:layout_y="600dp"
+        android:layout_y="620dp"
         android:padding="10dip"
         android:textColor="@color/White"
         android:background="@color/DodgerBlue"
@@ -32,7 +32,7 @@
         android:layout_height="100dp"
         android:layout_marginTop="50dp"
         android:layout_x="200dp"
-        android:layout_y="150dp"
+        android:layout_y="170dp"
         android:padding="10dip"
 		android:textColor="@color/White"
         android:background="@color/DodgerBlue"
@@ -46,7 +46,7 @@
         android:layout_height="100dp"
         android:layout_marginTop="50dp"
         android:layout_x="200dp"
-        android:layout_y="300dp"
+        android:layout_y="320dp"
         android:padding="10dip"
         android:textColor="@color/White"
         android:background="@color/DodgerBlue"
@@ -60,7 +60,7 @@
         android:layout_height="100dp"
         android:layout_marginTop="50dp"
         android:layout_x="200dp"
-        android:layout_y="450dp"
+        android:layout_y="470dp"
         android:padding="10dip"
         android:textColor="@color/White"
         android:background="@color/DodgerBlue"
@@ -73,7 +73,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_x="75dp"
-        android:layout_y="300dp"
+        android:layout_y="320dp"
         android:src="@android:drawable/ic_menu_mapmode" />
 
     <ImageView
@@ -81,14 +81,14 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_x="75dp"
-        android:layout_y="150dp"
+        android:layout_y="170dp"
         android:src="@android:drawable/ic_menu_info_details" />
 
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_x="75dp"
-        android:layout_y="600dp"
+        android:layout_y="620dp"
         android:src="@android:drawable/ic_menu_recent_history" />
 
 	<ImageView
@@ -96,7 +96,7 @@
 	    android:layout_width="100dp"
 	    android:layout_height="100dp"
 	    android:layout_x="75dp"
-	    android:layout_y="450dp"
+	    android:layout_y="470dp"
 	    android:src="@drawable/test" />
 
 	<TextView
@@ -121,7 +121,7 @@
 	    android:fontFamily="sans-serif-light"
 	    android:gravity="center"
 	    android:text="@string/welcome"
-	    android:textColor="@color/DodgerBlue"
+	    android:textColor="@color/Gray"
 	    android:textAppearance="?android:attr/textAppearanceLarge"
 	    android:textSize="28sp" />
 

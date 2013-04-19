@@ -8,8 +8,14 @@
         android:minSdkVersion="8"
         android:targetSdkVersion="17" />
 
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name= "android.permission.ACCESS_COARSE_LOCATION" />
+    
     <application
         android:allowBackup="true"
+		android:largeHeap="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
@@ -33,6 +39,14 @@
         <activity
             android:name="edu.berkeley.cs160.JoyceLiu.proj3.Buy"
             android:label="@string/app_buy">
+        </activity>
+        <activity
+            android:name="edu.berkeley.cs160.JoyceLiu.proj3.Nearest"
+            android:label="@string/app_near">
+        </activity>
+		<activity
+            android:name="edu.berkeley.cs160.JoyceLiu.proj3.Departures"
+            android:label="@string/app_near">
         </activity>
  
 

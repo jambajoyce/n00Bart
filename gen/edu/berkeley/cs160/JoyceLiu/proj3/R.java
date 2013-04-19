@@ -9,50 +9,97 @@ package edu.berkeley.cs160.JoyceLiu.proj3;
 
 public final class R {
     public static final class array {
-        public static final int station_array=0x7f050000;
+        public static final int station_array=0x7f060000;
     }
     public static final class attr {
+    }
+    public static final class color {
+        public static final int DodgerBlue=0x7f040001;
+        public static final int Gray=0x7f040003;
+        public static final int White=0x7f040000;
+        public static final int WhiteSmoke=0x7f040002;
+        public static final int black=0x7f040005;
+        public static final int white=0x7f040004;
     }
     public static final class drawable {
         public static final int add=0x7f020000;
         public static final int bart_map=0x7f020001;
-        public static final int fares=0x7f020002;
-        public static final int ic_launcher=0x7f020003;
-        public static final int insertcredit=0x7f020004;
-        public static final int insertmoney=0x7f020005;
-        public static final int insertticket=0x7f020006;
-        public static final int kiosks=0x7f020007;
-        public static final int paymentmethod=0x7f020008;
-        public static final int takechange=0x7f020009;
+        public static final int dollar=0x7f020002;
+        public static final int fares=0x7f020003;
+        public static final int ic_launcher=0x7f020004;
+        public static final int insertcredit=0x7f020005;
+        public static final int insertmoney=0x7f020006;
+        public static final int insertticket=0x7f020007;
+        public static final int kiosks=0x7f020008;
+        public static final int paymentmethod=0x7f020009;
+        public static final int takechange=0x7f02000a;
+        public static final int test=0x7f02000b;
     }
     public static final class id {
-        public static final int ImageView00=0x7f080008;
-        public static final int ImageView01=0x7f080009;
-        public static final int ImageView02=0x7f08000a;
-        public static final int ImageView03=0x7f08000b;
-        public static final int ImageView04=0x7f08000c;
-        public static final int ImageView05=0x7f08000d;
-        public static final int ImageView06=0x7f08000e;
-        public static final int ImageView07=0x7f08000f;
-        public static final int ImageView08=0x7f080010;
-        public static final int LinearLayout01=0x7f080006;
-        public static final int TextView01=0x7f080011;
-        public static final int TextView02=0x7f080012;
-        public static final int action_settings=0x7f08001a;
-        public static final int buy_button=0x7f080002;
-        public static final int dest_box=0x7f080014;
-        public static final int fare_button=0x7f080004;
-        public static final int from=0x7f080017;
-        public static final int imageView=0x7f080018;
-        public static final int locationButton=0x7f080000;
-        public static final int locationResults=0x7f080001;
-        public static final int map_button=0x7f080003;
-        public static final int menu_settings=0x7f080019;
-        public static final int next_leave_button=0x7f080005;
-        public static final int orig_box=0x7f080016;
-        public static final int textView1=0x7f080007;
-        public static final int textView2=0x7f080015;
-        public static final int to=0x7f080013;
+        public static final int ImageView01=0x7f090019;
+        public static final int ImageView02=0x7f09001a;
+        public static final int ImageView03=0x7f090020;
+        public static final int ImageView04=0x7f090022;
+        public static final int ImageView05=0x7f090024;
+        public static final int ImageView06=0x7f090026;
+        public static final int ImageView07=0x7f090028;
+        public static final int ImageView08=0x7f09002b;
+        public static final int LinearLayout01=0x7f090018;
+        public static final int TextView01=0x7f09000e;
+        public static final int TextView02=0x7f090038;
+        public static final int TextView03=0x7f090039;
+        public static final int action_settings=0x7f09003f;
+        public static final int buy_button=0x7f090012;
+        public static final int calcFareButt=0x7f09002f;
+        public static final int calc_again=0x7f090035;
+        public static final int calculated_fare=0x7f090036;
+        public static final int curLat=0x7f090010;
+        public static final int curLon=0x7f09000f;
+        public static final int d1=0x7f090008;
+        public static final int d2=0x7f09000b;
+        public static final int d3=0x7f09000a;
+        public static final int d4=0x7f090009;
+        public static final int d5=0x7f09000c;
+        public static final int dest_box=0x7f090030;
+        public static final int e1=0x7f090006;
+        public static final int e2=0x7f090002;
+        public static final int e3=0x7f090003;
+        public static final int e4=0x7f090004;
+        public static final int e5=0x7f090005;
+        public static final int editText1=0x7f09003c;
+        public static final int fareInstruc=0x7f090034;
+        public static final int fareLayout=0x7f09002d;
+        public static final int fare_button=0x7f090014;
+        public static final int from=0x7f090031;
+        public static final int iWantToGoToThere=0x7f090033;
+        public static final int imageView=0x7f09003d;
+        public static final int imageView1=0x7f090017;
+        public static final int imageView2=0x7f090015;
+        public static final int imageView3=0x7f090016;
+        public static final int locationButton=0x7f090000;
+        public static final int locationResults=0x7f09003a;
+        public static final int map_button=0x7f090013;
+        public static final int menu_settings=0x7f09003e;
+        public static final int nearestStation=0x7f090007;
+        public static final int next_leave_button=0x7f090011;
+        public static final int orig_box=0x7f09002e;
+        public static final int roundFare=0x7f090037;
+        public static final int tableRow1=0x7f09003b;
+        public static final int textView09=0x7f09002c;
+        public static final int textView1=0x7f090001;
+        public static final int textView2=0x7f09000d;
+        public static final int textView3=0x7f09001b;
+        public static final int textView4=0x7f090021;
+        public static final int textView5=0x7f090023;
+        public static final int textView5A=0x7f090025;
+        public static final int textView6=0x7f090027;
+        public static final int textView7=0x7f090029;
+        public static final int textView7A=0x7f09002a;
+        public static final int textViewA=0x7f09001c;
+        public static final int textViewB=0x7f09001d;
+        public static final int textViewC=0x7f09001e;
+        public static final int textViewD=0x7f09001f;
+        public static final int to=0x7f090032;
     }
     public static final class layout {
         public static final int activity_blah=0x7f030000;
@@ -60,34 +107,70 @@ public final class R {
         public static final int activity_main=0x7f030002;
         public static final int buy=0x7f030003;
         public static final int fare=0x7f030004;
-        public static final int zoom=0x7f030005;
+        public static final int location=0x7f030005;
+        public static final int nearest=0x7f030006;
+        public static final int zoom=0x7f030007;
     }
     public static final class menu {
-        public static final int activity_blah=0x7f070000;
-        public static final int activity_main=0x7f070001;
-        public static final int location=0x7f070002;
+        public static final int activity_blah=0x7f080000;
+        public static final int activity_main=0x7f080001;
+        public static final int location=0x7f080002;
     }
     public static final class string {
-        public static final int action_settings=0x7f040007;
-        public static final int and_cost=0x7f04000e;
-        public static final int app_buy=0x7f04000c;
-        public static final int app_fare=0x7f04000a;
-        public static final int app_name=0x7f040000;
-        public static final int app_zoom=0x7f04000b;
-        public static final int buy_use=0x7f040003;
-        public static final int calculate_cost=0x7f040012;
-        public static final int cost=0x7f04000f;
-        public static final int dest=0x7f040009;
-        public static final int from=0x7f040010;
-        public static final int hello_world=0x7f040001;
-        public static final int how_much=0x7f040005;
-        public static final int i_want=0x7f04000d;
-        public static final int menu_settings=0x7f040002;
-        public static final int next_leave=0x7f040006;
-        public static final int orig=0x7f040008;
-        public static final int title_activity_blah=0x7f040013;
-        public static final int to=0x7f040011;
-        public static final int where_go=0x7f040004;
+        public static final int Destination=0x7f05002c;
+        public static final int action_settings=0x7f050007;
+        public static final int and_cost=0x7f05000f;
+        public static final int app_buy=0x7f05000d;
+        public static final int app_fare=0x7f05000a;
+        public static final int app_name=0x7f050000;
+        public static final int app_near=0x7f05000c;
+        public static final int app_zoom=0x7f05000b;
+        public static final int buy1=0x7f050014;
+        public static final int buy2=0x7f050015;
+        public static final int buy3=0x7f050016;
+        public static final int buy4=0x7f05001b;
+        public static final int buy5=0x7f05001c;
+        public static final int buy5A=0x7f05001d;
+        public static final int buy6=0x7f05001e;
+        public static final int buy7=0x7f05001f;
+        public static final int buy7A=0x7f050020;
+        public static final int buyA=0x7f050017;
+        public static final int buyB=0x7f050018;
+        public static final int buyC=0x7f050019;
+        public static final int buyD=0x7f05001a;
+        public static final int buy_use=0x7f050003;
+        public static final int c12=0x7f050024;
+        public static final int calc_again=0x7f050026;
+        public static final int calculate_cost=0x7f050013;
+        public static final int connection_error=0x7f05002e;
+        public static final int cost=0x7f050010;
+        public static final int dest=0x7f050009;
+        public static final int distance=0x7f05002b;
+        public static final int eta=0x7f05002d;
+        public static final int fareInstruc=0x7f050025;
+        public static final int from=0x7f050011;
+        public static final int get_nearest=0x7f050029;
+        public static final int happyTravels=0x7f050021;
+        public static final int hello_world=0x7f050001;
+        public static final int how_much=0x7f050005;
+        public static final int i_want=0x7f05000e;
+        public static final int lat=0x7f050027;
+        public static final int leaving_in=0x7f050032;
+        public static final int lon=0x7f050028;
+        public static final int menu_settings=0x7f050002;
+        public static final int n00Bart=0x7f050023;
+        public static final int nearStat=0x7f05002a;
+        public static final int next_leave=0x7f050006;
+        public static final int one=0x7f050033;
+        public static final int orig=0x7f050008;
+        public static final int round=0x7f050034;
+        public static final int theClosest=0x7f050030;
+        public static final int title_activity_blah=0x7f050035;
+        public static final int to=0x7f050012;
+        public static final int train_to=0x7f050031;
+        public static final int welcome=0x7f050022;
+        public static final int where_go=0x7f050004;
+        public static final int xml_error=0x7f05002f;
     }
     public static final class style {
         /** 
@@ -111,10 +194,10 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f060000;
+        public static final int AppBaseTheme=0x7f070000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f060001;
+        public static final int AppTheme=0x7f070001;
     }
 }
